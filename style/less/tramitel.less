@@ -1,0 +1,145 @@
+@fitstColor: #92b937; /*COLOR VERDE */
+
+// MIXES
+.fondoDegradado(@color2:#92b937, @color1:#a2c25b) {
+ // background: -webkit-linear-gradient(@color1,  @color2); /* For Safari 5.1 to 6.0 */
+  // background: -o-linear-gradient(@color1, @color2); /* For Opera 11.1 to 12.0 */
+  background:url(../../img/bg-header.png), -moz-linear-gradient(@color1, @color2),; /* For Firefox 3.6 to 15 */
+  // background: linear-gradient(@color1, @color2); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+ 
+}
+
+.box(@bgcolor:red) {
+background-color: @bgcolor;
+border: solid 1px;
+border-color: rgba(255, 255, 255, 0.5);
+color: white;
+box-shadow: 0 0 5px #6e8e27;
+height: 9em;
+transition: .3s;
+&:hover{
+		box-shadow: 0 0 10px black;
+	}
+
+}
+.fondoBox(@img: "../../img/icon01.jpg"){
+	background-image: url(@img);
+	background-repeat: no-repeat;
+	 background-position: 70% bottom ;
+	 background-size: 45%;
+}
+html {
+ position: relative;
+  min-height: 100%;
+
+}
+body {
+margin-bottom: 75px;
+	.fondoDegradado;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+#index {
+	color: white;
+}
+.wrap {
+	// height:800px;
+	// background-color: red
+}
+figure {
+	margin: 0;
+}
+.top(@bgcolor) {
+	background-color: @bgcolor
+
+}
+.container {
+	width: 992px !important;
+}
+
+.logo {
+	text-align: center;
+	display: block;
+	margin-bottom: 0.5em;
+	padding: 2em;
+}
+.row > div {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.row {
+	margin-top: 1em;
+}
+// CUADROS
+.alertas {
+	.box(#50c4d9)
+
+}
+.tramites {
+	.box(#eec654);
+	margin-left: 0px !important;
+	.fondoBox;
+}
+.reportes {
+	.box(#32b673);
+	.fondoBox("../../img/icon02.jpg")
+}
+.inversion {
+	.box(#e2437b);
+	.fondoBox("../../img/icon03.jpg")
+}
+.noticias {
+	.headNoticias{
+		background-color: #902fd4;
+		height: 2.3em;
+		// padding-left: 2em;
+		// padding-top: 0.5em;
+	}
+	.box(#ad5de6);
+}
+.formatos {
+	.box(#e97936);
+	.fondoBox("../../img/icon04.jpg")
+}
+.presentaciones {
+	.box(#3832b6);
+	.fondoBox("../../img/icon05.jpg")
+}
+.operacion {
+	.box(#de204d);
+	.fondoBox("../../img/icon06.jpg")
+}
+.row2 > div {
+	float: left;
+	width: 32.3333%;
+	margin-left: 1%
+}
+.titulosBox {
+	position: absolute;
+	margin-left: 1.3em;
+	bottom: 0.6em;
+	left: 0;
+	right: 0;
+	font-size: 1.3em;
+
+}
+.tituloNoticia {
+	font-size: 1.6em;
+}
+footer {
+position: absolute;
+text-align: center;
+bottom: 0px;
+width: 100%;
+height: 60px;
+background-color: #505050;
+padding-top: 1em;
+img {
+	width: 45%;
+}
+}
+
+
+

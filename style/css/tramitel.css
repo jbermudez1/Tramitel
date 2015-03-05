@@ -1,0 +1,191 @@
+/*COLOR VERDE */
+/*COLOR VERDE */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 75px;
+  background: url(../../img/bg-header.png), -moz-linear-gradient(#a2c25b, #92b937);
+  /* For Firefox 3.6 to 15 */
+
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+#index {
+  color: white;
+}
+figure {
+  margin: 0;
+}
+.container {
+  width: 992px !important;
+}
+.logo {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 2em;
+}
+.row > div {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.row {
+  margin-top: 1em;
+}
+.alertas {
+  background-color: #50c4d9;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+}
+.alertas:hover {
+  box-shadow: 0 0 10px black;
+}
+.tramites {
+  background-color: #eec654;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  margin-left: 0px !important;
+  background-image: url("../../img/icon01.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.tramites:hover {
+  box-shadow: 0 0 10px black;
+}
+.reportes {
+  background-color: #32b673;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  background-image: url("../../img/icon02.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.reportes:hover {
+  box-shadow: 0 0 10px black;
+}
+.inversion {
+  background-color: #e2437b;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  background-image: url("../../img/icon03.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.inversion:hover {
+  box-shadow: 0 0 10px black;
+}
+.noticias {
+  background-color: #ad5de6;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+}
+.noticias .headNoticias {
+  background-color: #902fd4;
+  height: 2.3em;
+}
+.noticias:hover {
+  box-shadow: 0 0 10px black;
+}
+.formatos {
+  background-color: #e97936;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  background-image: url("../../img/icon04.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.formatos:hover {
+  box-shadow: 0 0 10px black;
+}
+.presentaciones {
+  background-color: #3832b6;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  background-image: url("../../img/icon05.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.presentaciones:hover {
+  box-shadow: 0 0 10px black;
+}
+.operacion {
+  background-color: #de204d;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  background-image: url("../../img/icon06.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% bottom ;
+  background-size: 45%;
+}
+.operacion:hover {
+  box-shadow: 0 0 10px black;
+}
+.row2 > div {
+  float: left;
+  width: 32.3333%;
+  margin-left: 1%;
+}
+.titulosBox {
+  position: absolute;
+  margin-left: 1.3em;
+  bottom: 0.6em;
+  left: 0;
+  right: 0;
+  font-size: 1.3em;
+}
+.tituloNoticia {
+  font-size: 1.6em;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #505050;
+  padding-top: 1em;
+}
+footer img {
+  width: 45%;
+}
