@@ -65,6 +65,30 @@ figure {
 .tramites:hover {
   box-shadow: 0 0 10px black;
 }
+
+
+/*CLASE AGREGADA*/
+.ordenes {
+  background-color: #eec654;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 11em;
+  transition: .3s;
+  margin-left: 0px !important;
+  background-image: url("../../img/tramites2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  /*background-size: 40%;*/
+}
+.ordenes:hover {
+  background-color: #ee6666;
+  box-shadow: 0 0 10px black;
+}
+/*TERMINA CLASE AGREGADA*/
+
+
 .reportes {
   background-color: #32b673;
   border: solid 1px;
@@ -166,6 +190,23 @@ figure {
   width: 32.3333%;
   margin-left: 1%;
 }
+
+.titulo{
+  font-size: 3em;
+  padding-left: 0.2em;
+}
+
+
+/*CLASE AGREGADA*/
+.titulocontenido{
+  font-size: 3em;
+  color: #adadad;
+}
+/*TERMINA CLASE AGREGADA*/
+
+
+
+
 .titulosBox {
   position: absolute;
   margin-left: 1.3em;
@@ -174,9 +215,28 @@ figure {
   right: 0;
   font-size: 1.3em;
 }
+
 .tituloNoticia {
   font-size: 1.6em;
 }
+
+
+/*CLASE AGREGADA*/
+.contenido {
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #4d4d4d;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 10em;
+  padding: 1em;
+
+  transition: .3s;
+
+}
+/*TERMINA CLASE AGREGADA*/
+
+
 footer {
   position: absolute;
   text-align: center;
