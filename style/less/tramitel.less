@@ -73,6 +73,17 @@ figure {
 	margin-top: 1em;
 }
 // CUADROS
+.boxInternos {
+	.box(#eec654);
+	padding-top: 1em;
+	padding: 0.5em;
+	span{
+		font-size: 1.2em;
+	}
+}
+.boxActive {
+	.box(#ad5de6)
+}
 .ordenes {
 	.box(#eec654)
 
@@ -144,6 +155,36 @@ img {
 	width: 45%;
 }
 }
-
-
-
+.navegacion{
+	overflow: hidden;
+	div {
+		float: left;
+	}
+	.back {
+		margin-right: 3em;
+		a{
+			color: white
+		}
+	}
+}
+.vistaFomularios {
+	background-color: white;
+	padding: 2em;
+	color: gray;
+	.opcionesFormularios{
+		overflow: hidden;
+		padding-top: 3em;
+		div {
+			float: left;
+			width: 25%;
+			text-align: center;
+			i {
+				color: @fitstColor
+			}
+		}
+		
+	}
+}
+.titulocontenido {
+	font-size: 2em;
+}

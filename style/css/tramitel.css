@@ -36,6 +36,47 @@ figure {
 .row {
   margin-top: 1em;
 }
+.boxInternos {
+  background-color: #eec654;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+  padding-top: 1em;
+  padding: 0.5em;
+}
+.boxInternos:hover {
+  box-shadow: 0 0 10px black;
+}
+.boxInternos span {
+  font-size: 1.2em;
+}
+.boxActive {
+  background-color: #ad5de6;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+}
+.boxActive:hover {
+  box-shadow: 0 0 10px black;
+}
+.ordenes {
+  background-color: #eec654;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 5px #6e8e27;
+  height: 9em;
+  transition: .3s;
+}
+.ordenes:hover {
+  box-shadow: 0 0 10px black;
+}
 .alertas {
   background-color: #50c4d9;
   border: solid 1px;
@@ -65,30 +106,6 @@ figure {
 .tramites:hover {
   box-shadow: 0 0 10px black;
 }
-
-
-/*CLASE AGREGADA*/
-.ordenes {
-  background-color: #eec654;
-  border: solid 1px;
-  border-color: rgba(255, 255, 255, 0.5);
-  color: white;
-  box-shadow: 0 0 5px #6e8e27;
-  height: 11em;
-  transition: .3s;
-  margin-left: 0px !important;
-  background-image: url("../../img/tramites2.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  /*background-size: 40%;*/
-}
-.ordenes:hover {
-  background-color: #ee6666;
-  box-shadow: 0 0 10px black;
-}
-/*TERMINA CLASE AGREGADA*/
-
-
 .reportes {
   background-color: #32b673;
   border: solid 1px;
@@ -190,23 +207,6 @@ figure {
   width: 32.3333%;
   margin-left: 1%;
 }
-
-.titulo{
-  font-size: 3em;
-  padding-left: 0.2em;
-}
-
-
-/*CLASE AGREGADA*/
-.titulocontenido{
-  font-size: 3em;
-  color: #adadad;
-}
-/*TERMINA CLASE AGREGADA*/
-
-
-
-
 .titulosBox {
   position: absolute;
   margin-left: 1.3em;
@@ -215,28 +215,9 @@ figure {
   right: 0;
   font-size: 1.3em;
 }
-
 .tituloNoticia {
   font-size: 1.6em;
 }
-
-
-/*CLASE AGREGADA*/
-.contenido {
-  background-color: #ffffff;
-  border: solid 1px;
-  border-color: rgba(255, 255, 255, 0.5);
-  color: #4d4d4d;
-  box-shadow: 0 0 5px #6e8e27;
-  height: 10em;
-  padding: 1em;
-
-  transition: .3s;
-
-}
-/*TERMINA CLASE AGREGADA*/
-
-
 footer {
   position: absolute;
   text-align: center;
@@ -248,4 +229,36 @@ footer {
 }
 footer img {
   width: 45%;
+}
+.navegacion {
+  overflow: hidden;
+}
+.navegacion div {
+  float: left;
+}
+.navegacion .back {
+  margin-right: 3em;
+}
+.navegacion .back a {
+  color: #ffffff;
+}
+.vistaFomularios {
+  background-color: white;
+  padding: 2em;
+  color: gray;
+}
+.vistaFomularios .opcionesFormularios {
+  overflow: hidden;
+  padding-top: 3em;
+}
+.vistaFomularios .opcionesFormularios div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.vistaFomularios .opcionesFormularios div i {
+  color: #92b937;
+}
+.titulocontenido {
+  font-size: 2em;
 }
