@@ -6,6 +6,9 @@ html {
 }
 body {
   margin-bottom: 75px;
+  background: url(../../img/bg-header.png), -webkit-linear-gradient(#a2c25b, #92b937);
+  /* For Safari 5.1 to 6.0 */
+
   background: url(../../img/bg-header.png), -moz-linear-gradient(#a2c25b, #92b937);
   /* For Firefox 3.6 to 15 */
 
@@ -261,4 +264,15 @@ footer img {
 }
 .titulocontenido {
   font-size: 2em;
+}
+.vistaDocumentos {
+  padding-top: 2em;
+}
+.vistaDocumentos hr {
+  border-color: #739620;
+  margin-top: 1px;
+}
+.vistaDocumentos .fecha {
+  font-style: italic;
+  font-size: 0.9em;
 }
